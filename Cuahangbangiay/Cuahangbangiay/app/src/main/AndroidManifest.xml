@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cuahangbangiay">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cuahangbangiay">
+        <activity
+            android:name=".GUI.GioHang.Thongtindonhang"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.Taikhoan.TTtaikhoan"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.GioHang.Dathang"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.Quanly.QLsanpham.QLsuasp"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.Quanly.QLsanpham.QLthemsp"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.Quanly.QLhdban"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.Quanly.QLNhap"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.Quanly.QLkhachhang"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.Quanly.QLsanpham.QLSanPham"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.Quanly.Quanly"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.SanPham.chitiet"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.Dangky"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.MainActivityLogIn"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GUI.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
